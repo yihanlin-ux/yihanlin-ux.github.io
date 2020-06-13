@@ -85,3 +85,105 @@ button:hover {
 button:focus {
   outline: none;
 }
+
+#bio, #edu, #skills, #intern {
+  width: 80%;
+  margin-bottom: 50px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px;
+}
+
+#bio img {
+  width: 300px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  border-radius: 12px;
+}
+
+h1, h2, h3 {
+  text-align: center;
+  margin: 20px;
+}
+
+h1, h2 {
+  font-size: 35px;
+  font-weight: 400;
+}
+
+h3 {
+  font-weight: 200;
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+article {
+  padding: 10px 0;
+}
+
+article a:link, article a:visited {
+  color: rgba(231, 110, 69, 0.966);
+  text-decoration: none;
+}
+
+article a:hover {
+  font-style: italic;
+}
+
+#edu div, #intern div {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  margin: 10px;
+  width: 300px;
+  height: 200px;
+  border-radius: 12px;
+  box-shadow: 0 2px 4px 0 gray, 0 3px 10px 0 gray;
+}
+
+.box img {
+  height: 100px;
+  width: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 10px;
+}
+
+.box h3 {
+  font-weight: 400;
+  margin: 0;
+}
+
+.box p {
+  font-weight: 200;
+  margin: 0;
+  font-size: 14px;
+}
+
+#intern .box img {
+  height: 60px;
+}
+
+#intern .box {
+  height: 160px;
+}
+
+hr {
+  border: 0.5px solid rgb(180, 180, 180);
+  width: 100px;
+  border-radius: 12px;
+  margin-bottom: 5px;
+}
